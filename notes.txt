@@ -1,3 +1,5 @@
 Hi Vivek Here
 Learing 30 days ROapmap of AWS and Devops with the help of CHatGPT
 
+Learning Git branching today.
+
