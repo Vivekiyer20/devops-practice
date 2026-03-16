@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vivek-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: vivek-app
+  template:
+    metadata:
+      labels:
+        app: vivek-app
+    spec:
+      containers:
+      - name: vivek-container
+        image: vivek209/jenkins-demo
+        ports:
+        - containerPort: 80

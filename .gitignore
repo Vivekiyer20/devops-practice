@@ -1,0 +1,5 @@
+minikube*
+kubectl*
+*.bin
+*.tar
+*.zip
